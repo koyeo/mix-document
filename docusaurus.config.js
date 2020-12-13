@@ -6,13 +6,13 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'koyeo', // Usually your GitHub org/user name.
+  projectName: 'mix-document', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'MIX',
+      // title: 'mix',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -25,7 +25,7 @@ module.exports = {
         },
         {to: 'blog', label: '博客', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/koyeo/mix-document',
           label: 'GitHub',
           position: 'right',
         },
@@ -89,7 +89,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/koyeo/mix-document/edit/master//',
         },
         blog: {
           showReadingTime: true,

@@ -92,7 +92,7 @@ function Home() {
                                 styles.getStarted,
                             )}
                             to={useBaseUrl('docs/')}>
-                            开始使用
+                            上手指南
                         </Link>
                         <Link
                             className={clsx(
@@ -100,7 +100,7 @@ function Home() {
                                 styles.getStarted,
                             )}
                             to={useBaseUrl('docs/')}>
-                            立即下载(0.3.2)
+                            立即下载
                         </Link>
                     </div>
                 </div>
