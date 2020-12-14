@@ -4,7 +4,6 @@
     "docs": "https://v2.docusaurus.io/docs/typescript-support",
 
     "compilerOptions": {
-        "baseUrl": "./src",
         "allowJs": true,
         "esModuleInterop": true,
         "jsx": "react",
