@@ -59,13 +59,13 @@ const features = [
     },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({ imageUrl, title, description }) {
     const imgUrl = useBaseUrl(imageUrl);
     return (
         <div className={clsx('col col--4', styles.feature)}>
             {imgUrl && (
                 <div className="text--center">
-                    <img className={styles.featureImage} src={imgUrl} alt={title}/>
+                    <img className={styles.featureImage} src={imgUrl} alt={title} />
                 </div>
             )}
             <h3>{title}</h3>
@@ -76,7 +76,7 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
     const context = useDocusaurusContext();
-    const {siteConfig = {}} = context;
+    const { siteConfig = {} } = context;
     return (
         <Layout
             title={`Hello from ${siteConfig.title}`}
@@ -99,7 +99,7 @@ function Home() {
                                 'button button--outline button--secondary button--lg',
                                 styles.getStarted,
                             )}
-                            to={useBaseUrl('docs/')}>
+                            to={'https://mix-releases-1301916718.cos.ap-guangzhou.myqcloud.com/releases/mix-0.3.2/mix-0.3.2.dmg'}>
                             立即下载
                         </Link>
                     </div>
