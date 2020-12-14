@@ -6,32 +6,49 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+    padding: 4rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+    .heroBanner {
+        padding: 2rem;
+    }
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    justify-content: space-between;
+    width: 370px;
+    margin: 0 auto;
+}
+
+
+.buttons a {
+    color: #fff !important;
+}
+
+.buttons a:hover {
+    color: var(--ifm-font-color-base) !important;
 }
 
 .features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+    height: 200px;
+    width: 200px;
 }
+
+.features h3 {
+    text-align: center;
+}
+
